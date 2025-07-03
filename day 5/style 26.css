@@ -1,0 +1,43 @@
+ .container {
+      position: relative;
+      width: 400px;
+      height: 300px;
+      border: 2px solid;
+      margin-top: 40px;  
+      margin-left: 40px;  
+    }
+
+  .box {
+      width: 200px;
+      height: 200px;
+      position: absolute;
+      top: 50px;
+      left: 50px;
+      opacity: 0.66;
+      color: aliceblue;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    
+
+    .box1 {
+      background-color: red;
+      z-index: -1;
+    }
+
+    .box2 {
+      background-color: green;
+      top: 80px;
+      left: 70px;
+      z-index: 2;
+    }
+
+    .box3 {
+      background-color: blue;
+      top: 1%;
+      left: 90px;
+      z-index: -2;
+    }

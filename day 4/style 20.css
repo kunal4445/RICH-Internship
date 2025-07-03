@@ -1,0 +1,10 @@
+.external {
+    padding: 12px;
+    background-color:aqua;
+    color: black;
+}
+
+.external:hover {
+    box-shadow: inset;
+    background-color: red;
+}

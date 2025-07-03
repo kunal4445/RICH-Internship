@@ -1,0 +1,25 @@
+.heading{
+    padding: 20px 30px;
+    margin: 10px;
+    box-sizing: border-box;
+    border: dashed;
+    color: red;
+}
+
+.para{
+    padding-left: 223px;
+    margin-bottom: 20px;
+        box-sizing: border-box;
+        border: solid;
+        color: blue;
+
+}
+
+.list{
+    padding-right: 0px;
+    margin: 70px;
+     box-sizing: border-box;
+     border: double;
+     color: green;
+
+}

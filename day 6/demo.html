@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Transforming Robot<
+    }
+
+    .head, .body, .arm, .leg {
+      background-color: #607d8b;
+      border: 2px solid #37474f;
+      border-radius: 6px;
+      margin: 5px;
+      transition: transform 0.5s ease;
+    }
+
+    .head {
+      width: 80px;
+      height: 80px;
+      background-color: #ffca28;
+    }
+
+    .body {
+      width: 100px;
+      height: 120px;
+      background-color: #90caf9;
+    }
+
+    .arms {
+      display: flex;
+      justify-content: space-between;
+      width: 160px;
+    }
+
+    .arm {
+      width: 30px;
+      height: 80px;
+      background-color: #a5d6a7;
+    }
+
+    .legs {
+      display: flex;
+      justify-content: space-between;
+      width: 100px;
+    }
+
+    .leg {
+      width: 30px;
+      height: 80px;
+      background-color: #ef9a9a;
+    }
+
+    /* 🔄 Responsive transform effect on small screens */
+    @media (max-width: 600px) {
+      .robot {
+        transform: rotate(20deg);
+      }
+
+      .head {
+        transform: translateX(-20px) rotate(15deg);
+      }
+
+      .body {
+        transform: translateX(20px);
+      }
+
+      .arm:first-child {
+        transform: translateY(-20px) rotate(-20deg);
+      }
+
+      .arm:last-child {
+        transform: translateY(20px) rotate(20deg);
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="robot">
+    <div class="head"></div>
+    <div class="arms">
+      <div class="arm"></div>
+      <div class="arm"></div>
+    </div>
+    <div class="body"></div>
+    <div class="legs">
+      <div class="leg"></div>
+      <div class="leg"></div>
+    </div>
+  </div>
+
+</body>
+</html>

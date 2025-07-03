@@ -1,0 +1,27 @@
+.inline{
+   display: inline;
+   padding: 20px 30px;
+   background-color: red;
+   margin: 20px;
+   border-radius: 8px;
+   border: dotted;
+}
+
+.block{
+    display: grid;
+    margin: 20px;
+    padding: 20px 40px;
+    background-color: aqua;
+    border: double;
+    border-radius: 12px;
+}
+
+.block-in{
+
+     display: flex;
+    margin: 20px;
+    padding: 20px 40px;
+    background-color: blueviolet;
+    border: double;
+    border-radius: 16px;
+}

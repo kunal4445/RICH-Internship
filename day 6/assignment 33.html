@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        li{
+            padding: 16px 15px;
+            justify-content: center;
+            align-items: center;
+            margin: 100px;
+            background-color: aqua;
+        }
+
+        li:first-child{
+            background-color: bisque;
+            border: solid;
+            border-radius: 20px;
+            
+        }
+
+        li:first-child::before{
+      content: "🍬 ";
+            contain: content 🍬;
+        }
+
+    </style>
+</head>
+<body>
+    <ul>
+    <li>Got a candy!</li>
+    <li>Waiting patiently...</li>
+    <li>Still hopeful...</li>
+    <li>Just happy to be here.</li>
+    </ul>
+</body>
+</html>

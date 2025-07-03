@@ -1,0 +1,45 @@
+
+
+.navbar{
+
+    background-color: beige;
+    position: sticky;
+}
+
+
+
+
+
+.container{
+    position: relative;
+    padding: 130px;
+    margin: 100px;
+    background-color: red;
+    border: solid;
+
+}
+
+.box{
+
+     width: 50px;
+      height: 100px;
+      margin: 10px;
+      padding: 10px;
+      background-color: aqua;
+}
+
+.static-box{
+    position: static;
+    background-color: white;    
+}
+
+.relative-box{
+    background-color: blueviolet;
+}
+
+.absolute-box{
+    background-color: cadetblue;
+}
+.box-fixed{
+    background-color: black;
+}

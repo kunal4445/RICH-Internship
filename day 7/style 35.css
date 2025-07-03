@@ -1,0 +1,59 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-wrap: wrap;
+}
+
+.container {
+    display: flex;
+}
+
+.robo-head{
+    background-color: red;
+    width: 150px;
+    height: 150px;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+
+
+}
+
+.robo-body{
+    width: 150px;
+    height: 250px;
+    background-color: bisque;
+    margin-top: 9px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+
+}
+
+.hand .right {
+    width: 25px;
+    height: 250px;
+    background-color: black;
+    margin: 80px 20px;
+}
+
+.hand .left {
+    width: 25px;
+    height: 250px;
+    background-color: black;
+    margin: 80px 20px;
+}
+h1{
+    padding:200px ;
+}
+
+
